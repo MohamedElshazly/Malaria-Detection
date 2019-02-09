@@ -36,4 +36,7 @@ In the United States, the Centers for Disease Control and Prevention (CDC) repor
       
       pip install -r requirements.txt 
  
- # **STAY SAFE!!**
+**After you install the requirements, you'd have to install pytorch from the official website. 
+  Simply specify the info of your machine and you'd get an appropriate install command. Pytorch : https://pytorch.org/**
+  
+ ## **STAY SAFE!!**
