@@ -1,0 +1,36 @@
+<html>
+    <title>Malaria Detection</title>
+    <head>
+        <style>
+                img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    }
+                form { 
+                    margin: 0 auto; 
+                    width:250px;
+                    }
+        </style>
+    <body>
+        <h1 align = 'center'>What's Malaria ?</h1>
+        <img src = 'https://cdn1.medicalnewstoday.com/content/images/articles/150/150670/malaria-is-passed-on-by-the-anopheles-mosquito.jpg' alt='Malaria transimiting mosquito' height = 469 width = 668  class ='center' >
+        <p style="text-align:center">Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes.<br> It is preventable and curable.
+                                     Malaria is caused by Plasmodium parasites. The parasites are spread to people through the bites of infected female Anopheles mosquitoes, called "malaria vectors." There are 5 parasite species that cause malaria in humans, and 2 of these species – P. falciparum and P. vivax – pose the greatest threat.
+                                     And this model helps detecting malaria in a thin blood smear slie images with an accuracy of 97.2%.
+                                    Though it could be further improved.
+        </p>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+                    Select image to upload: 
+                    <input type="file" name="file">
+                    <input type="submit" value="Upload Image">
+        </form>
+        <br>
+        <form action="/classify-url" method="get" enctype="multipart/form-data">
+            Or submit a URL:
+            <input type="url" name="url">
+            <input type="submit" value="Fetch and analyze image">
+        </form>
+    </body>
+    </head>
+</html>
