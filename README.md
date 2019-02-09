@@ -20,3 +20,12 @@ In the United States, the Centers for Disease Control and Prevention (CDC) repor
 **To read more on the causes and how the symptoms present themselves head over to the source website.** 
 
 **Source: https://www.healthline.com/health/malaria** 
+
+
+**I used resnet50 in my training and u could find the trained model in tmp/models (~300mb)** 
+
+**to run the Web app locally u need to run the requirements.txt file**
+      
+      pip install -r requirements.txt 
+ 
+ # **STAY SAFE!!**
