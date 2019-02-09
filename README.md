@@ -22,7 +22,15 @@ In the United States, the Centers for Disease Control and Prevention (CDC) repor
 **Source: https://www.healthline.com/health/malaria** 
 
 
-**I used resnet50 in my training and u could find the trained model in tmp/models (~300mb)** 
+**I used fastai to create the model and train it.**
+
+**I also used resnet50 in my training and u could find the trained model in tmp/models/model-2.pth (~300mb).**
+
+**And used the framework starlette to create the server side**
+
+**To learn more about starlette go here : https://www.starlette.io/** 
+
+**And to learn more about Fastai go here : https://www.fast.ai/**
 
 **to run the Web app locally u need to run the requirements.txt file**
       
