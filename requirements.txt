@@ -1,0 +1,8 @@
+fastai 
+starlette 
+uvicorn
+python-multipart
+aiohttp 
+jinja2
+pathlib
+asyncio
